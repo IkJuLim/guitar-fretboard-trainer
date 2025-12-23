@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <title>기타 지판 듣기 연습 (볼륨 체크)</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <h1>기타 지판 암기 (볼륨 & 음정 체크)</h1>
+
+    <div id="target-box">
+        <div id="target-string">준비</div>
+        <div id="target-note">?</div>
+    </div>
+
+    <div id="status">시작 버튼을 눌러주세요</div>
+
+    <div id="info-box">
+        <div class="info-row">
+            <span>감지된 음:</span>
+            <span id="detected-note" class="highlight">--</span>
+        </div>
+
+        <div style="margin-top: 10px;" id="vol-display-text">소리 크기 (30%):</div>
+        <div id="vol-container">
+            <div id="vol-threshold-line" title="통과 기준선"></div>
+            <div id="vol-bar"></div>
+        </div>
+    </div>
+
+    <button id="start-btn" onclick="startApp()">마이크 켜기 & 시작</button>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
