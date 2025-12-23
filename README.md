@@ -3,7 +3,7 @@
 기타 지판의 음 위치를 효율적으로 암기할 수 있도록 돕는 웹 기반 트레이닝 도구입니다.  
 랜덤으로 음을 제시하되, **단순 무작위가 아닌 연습에 방해되는 패턴을 필터링**하여 더 효과적인 연습이 가능합니다.
 
-> **[Live Demo 바로가기](https://IkJuLim.github.io/guitar-fretboard-trainer/)**
+> **[Live Demo 바로가기](https://IkJuLim.github.io/guitar-fretboard-trainer/main.html)**
 
 ---
 
